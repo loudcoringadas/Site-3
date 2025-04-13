@@ -8,7 +8,6 @@
   <style>
     :root {
       --primary: #3b82f6;
-      --secondary: #2563eb;
       --background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     }
 
@@ -23,54 +22,44 @@
       background: var(--background);
       color: #fff;
       min-height: 100vh;
-      padding: 40px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-
-    .container {
-      max-width: 900px;
-      width: 100%;
+      justify-content: center;
+      padding: 40px 20px;
       text-align: center;
     }
 
     header {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     .logo {
-      max-width: 140px;
+      max-width: 160px;
       border-radius: 12px;
       margin-bottom: 20px;
     }
 
     h1 {
-      font-size: 2.8rem;
+      font-size: 3rem;
       font-weight: 800;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
 
     p {
       font-size: 1.1rem;
-      max-width: 700px;
+      font-weight: 400;
+      max-width: 600px;
       margin: 0 auto 30px auto;
       opacity: 0.9;
     }
 
-    .btn-group {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 50px;
-    }
-
     a.btn {
-      padding: 14px 28px;
+      display: inline-block;
+      padding: 15px 35px;
       font-size: 1rem;
       font-weight: 600;
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      background: linear-gradient(135deg, #3b82f6, #2563eb);
       border: none;
       border-radius: 10px;
       color: white;
@@ -80,85 +69,36 @@
     }
 
     a.btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 12px 24px rgba(59, 130, 246, 0.6);
-    }
-
-    section.faq {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 12px;
-      padding: 30px;
-      margin-bottom: 60px;
-      box-shadow: 0 0 20px rgba(255,255,255,0.05);
-    }
-
-    .faq h2 {
-      font-size: 1.8rem;
-      margin-bottom: 20px;
-    }
-
-    .faq-item {
-      text-align: left;
-      margin-bottom: 20px;
-    }
-
-    .faq-item strong {
-      color: var(--primary);
-      display: block;
-      margin-bottom: 5px;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 24px rgba(59, 130, 246, 0.5);
     }
 
     footer {
+      margin-top: 60px;
       font-size: 0.9rem;
       opacity: 0.6;
-      text-align: center;
     }
 
     @media (max-width: 600px) {
       h1 {
         font-size: 2rem;
       }
-      .btn-group {
-        flex-direction: column;
-        gap: 10px;
+      a.btn {
+        padding: 12px 25px;
       }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <img src="https://github.com/loudcoringadas/Site-2/blob/main/Main%20logo.png?raw=true" alt="S333 HUBS Logo" class="logo"/>
-      <h1>Bem-vindo ao S333 HUBS</h1>
-      <p>Você está a um clique de desbloquear recursos premium. Aproveite o melhor da plataforma com conteúdo exclusivo para membros.</p>
-    </header>
-
-    <div class="btn-group">
-      <a href="https://link-center.net/1338065/s333-macro-for-asura" class="btn">Acessar Conteúdo 🔓</a>
-      <a href="#faq" class="btn">Dúvidas Frequentes ❓</a>
-      <a href="https://discord.gg/seu-server" class="btn" target="_blank">Entrar no Discord 💬</a>
-      <a href="mailto:suporte@s333hubs.com" class="btn">Suporte Técnico 📧</a>
-    </div>
-
-    <section class="faq" id="faq">
-      <h2>❓ Dúvidas Frequentes</h2>
-      <div class="faq-item">
-        <strong>Como acesso o conteúdo premium?</strong>
-        Basta clicar no botão "Acessar Conteúdo" acima e seguir os passos.
-      </div>
-      <div class="faq-item">
-        <strong>Minha key não está funcionando. O que fazer?</strong>
-        Entre em contato com nosso suporte via Discord ou e-mail.
-      </div>
-      <div class="faq-item">
-        <strong>O acesso é vitalício?</strong>
-        As licenças têm validade. Verifique os termos no momento da ativação.
-      </div>
-    </section>
-
-    <footer>
-      © 2025 S333 HUBS. Todos os direitos reservados.
-    </footer>
-  </div>
+  <header>
+  <img src="https://github.com/loudcoringadas/Site-2/blob/main/Main%20logo.png?raw=true" alt="S333 HUBS Logo" class="logo"/>
+    <h1>Bem-vindo ao S333 HUBS</h1>
+    <h1>Acesso Exclusivo Liberado</h1>
+    <p>Você está a um clique de desbloquear recursos premium. Aproveite o melhor da plataforma com conteúdo exclusivo para membros.</p>
+    <a href="https://link-center.net/1338065/s333-macro-for-asura" class="btn">Acessar Conteúdo 🔓</a>
+  </header>
+  <footer>
+    © 2025 S333 HUBS. Todos os direitos reservados.
+  </footer>
 </body>
 </html>
